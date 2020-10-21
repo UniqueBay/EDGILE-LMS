@@ -28,6 +28,9 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { LoginComponent } from './login/login.component';
 import { FooterComponent } from './footer/footer.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { StudentBoardComponent } from './student-board/student-board.component';
+import { TeacherBoardComponent } from './teacher-board/teacher-board.component';
+import { ParentBoardComponent } from './parent-board/parent-board.component';
 
 
 @NgModule({
@@ -36,7 +39,10 @@ import { NavbarComponent } from './navbar/navbar.component';
     WelcomeComponent,
     LoginComponent,
     FooterComponent,
-    NavbarComponent
+    NavbarComponent,
+    StudentBoardComponent,
+    TeacherBoardComponent,
+    ParentBoardComponent
     // IndexComponent,
     // ProfilepageComponent,
     // RegisterpageComponent,
